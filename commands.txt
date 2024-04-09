@@ -1,0 +1,9 @@
+git clone https://github.com/vikashkhati007/ecommerceweb.git
+git remote -v
+ls
+cd ecommerceweb
+git clone https://github.com/ferditing/ecommerceweb.git
+cd ecommerceweb
+git remote -v
+git branch feature-update
+git checkout feature-update
