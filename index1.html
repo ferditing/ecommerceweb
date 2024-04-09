@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Alert Popup</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="custom-alert" class="custom-alert">
+        <div class="alert-content">
+            <span class="close-btn" onclick="closeAlert()">×</span>
+            <p id="alert-message"></p>
+        </div>
+    </div>
+
+    <form id="signup-form" onsubmit="return submitForm()">
+        <input type="text" id="firstname" placeholder="First Name">
+        <input type="text" id="lastname" placeholder="Last Name">
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Password">
+        <input type="password" id="confirmPassword" placeholder="Confirm Password">
+        <input type="tel" id="phone" placeholder="Phone Number">
+        <button type="submit">Sign Up</button>
+    </form>
+</body>
+</html>
